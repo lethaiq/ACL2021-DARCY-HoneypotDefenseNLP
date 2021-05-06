@@ -9,7 +9,7 @@ Check ``requirements.txt``.
 Note: a main portion of the code uses ``allennlp`` library, which has been tremendously updated since then. Please make sure to install the correct version from the ``requirements.txt`` file.
 
 ## Instruction
-- Download pretrained fasttext word-embedding at [link](https://fasttext.cc/docs/en/english-vectors.html) and place inside the project folder.
+- Download pretrained fasttext word-embedding at [crawl-300d-2M.vec.zip](https://fasttext.cc/docs/en/english-vectors.html) and place inside the project folder.
 - Available datasets include``rotten_tomatoes``, ``subjectivity``, ``agnews``
 - SST dataset can be downloaded using ``download_sst_dataset.sh``
 #### Defense against universal attacks using random trapdoors on ``RNN`` trained with ``rotten_tomatoes`` dataset:
